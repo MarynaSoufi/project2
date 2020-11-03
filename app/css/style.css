@@ -1,0 +1,394 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Header*/
+header {
+    height: 210px;
+    width: 100%;
+    background: url("https://assets.rockwerchter.be/layout/frontend/img/svg/pattern-2021.svg") bottom left repeat-x;
+    background-size: auto 200px;
+    position: relative;
+    margin-top: -10px;
+}
+
+.logo {
+    background: url("https://assets.rockwerchter.be/layout/frontend/img/svg/logo-2021.svg") no-repeat;
+    background-size: auto 140px;
+    width: 100%;
+    height: 90%;
+    margin-left: 40px;
+    margin-top: 40px;
+    position: absolute;
+
+
+}
+
+.navigation {
+    width: 800px;
+    min-height: 60px;
+    background-image: linear-gradient(to right, #663df9, #e591ac);
+    position: absolute;
+    top: 80px;
+    left: 500px;
+
+}
+
+.navigation nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: -20px;
+}
+
+.navigation nav ul li {
+    list-style: none;
+    margin-top: 24px;
+}
+
+.navigation nav ul li a {
+    color: white;
+
+}
+
+.navigation nav ul li a:hover,
+.navigation nav ul li a:active {
+    color: black;
+}
+
+.btn {
+    background-color: black;
+    padding: 8px;
+    margin-top: 15px !important;
+}
+
+.navigation nav ul li.btn a:hover,
+.navigation nav ul li.btn a :active {
+    color: white;
+}
+
+.is-checked {
+    color: black !important;
+}
+
+.sort {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-left: 1.5rem;
+    width: 330px;
+    color: rgb(0, 0, 255);
+    margin-bottom: -10px;
+}
+
+div.sort h3:hover {
+    color: black;
+}
+#timer {
+    position: absolute;
+    right: 26px;
+    /* background-color: black; */
+    color: #0066FF;
+    font-weight: 900;
+    font-size: 40px;
+    padding: .8rem 16.7rem;
+}
+/*line up*/
+.container {
+    margin: 1rem;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.pic {
+    width: 32%;
+    height: 290px;
+    background-position: 50% 50%;
+    background-size: 490px;
+    transition: all .2s ease-in-out;
+    margin: .5rem auto;
+    position: relative;
+}
+
+.pic:hover {
+    background-size: 500px;
+}
+
+.container .pic h1 {
+    background-image: linear-gradient(270deg, cyan 0%, #643cfa 50%, #ff690a 100%);
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 11px;
+    left: 10px;
+    margin: 0;
+}
+
+h1:hover {
+    text-decoration: underline;
+}
+
+.container .pic h3 {
+    color: white;
+    background-color: rgb(0, 1, 254);
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 4px;
+    /* margin-top: 219px; */
+    margin-left: 10px;
+    /* position: absolute;
+    left: 10px;
+    bottom: 43.5px;
+*/
+}
+
+.container .pic h2 {
+    text-transform: uppercase;
+    background-color: #fff;
+    display: inline-block;
+    margin: 0;
+    padding: 3.5px;
+    font-size: 17px;
+    margin-top: 221px;
+    /* position: absolute;
+    left: 92.5px;
+    bottom: 43.5px; */
+
+}
+
+/*Footer*/
+footer {
+    background-color: rgb(0, 0, 153);
+    margin-top: 1rem;
+    min-height: 600px;
+    color: white;
+}
+
+.social {
+    margin: 2rem;
+}
+
+.social ul {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    padding: 3rem 3rem;
+    max-width: 500px;
+    min-width: 350px;
+    list-style-type: none;
+}
+
+.social-li {
+    width: 50px;
+    height: 50px;
+}
+
+.social-li__link {
+    width: 20px;
+    height: 20px;
+
+}
+
+.my-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+    padding-left: 5rem;
+    width: 70%;
+}
+
+.my-info ul {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.my-info ul li {
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+.my-info a {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 18px;
+}
+
+.my-info a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.my-info div {
+    width: 27%;
+}
+
+.news {
+    width: 40% !important;
+}
+
+.input {
+    padding: 10px 8px;
+    color: white;
+    background-color: rgb(0, 0, 153);
+    border: 2px solid white;
+}
+
+.submit {
+    padding: 10px 15px;
+    color: blue;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+/*Modal-Window*/
+.my-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,.7);
+    z-index: 1000;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 0 auto;
+    margin-right: 0;
+    /* padding: 20px; */
+    border: 1px solid #888;
+    width: 70%;
+    z-index: 99999;
+    margin-top: -32px;
+}
+.my-modal-image {
+    width: 100%;
+    height: 700px;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: all .2s ease-in-out;
+    margin: -2px;
+    margin-top: -22px;
+    position: relative;
+}
+.wrap {
+    margin: 3rem;
+}
+.wrap p {
+    margin: 0;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    width: 85%;
+}
+.my-modal h1 {
+    background-image: linear-gradient(270deg, cyan 0%, #643cfa 50%, #ff690a 100%);
+    display: inline-block;
+    font-size: 1.8rem;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 11px;
+    left: 10px;
+    margin: 0;
+}
+
+h1:hover {
+    text-decoration: underline;
+}
+
+.my-modal h3 {
+    color: white;
+    background-color: rgb(0, 1, 254);
+    display: inline-block;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 5.5px;
+    margin-top: 591px;
+    margin-left: 10px;
+}
+.my-modal h2 {
+    text-transform: uppercase;
+    background-color: #fff;
+    display: inline-block;
+    margin: 0;
+    padding: 3.7px;
+    font-size: 1.5;
+    margin-top: 591px;
+}
+iframe {
+    width:85%;
+    height: 550px;
+    margin: 3rem 0;
+    
+}
+div.wrap div.modal-social h3.modal-title {
+    margin: 3rem 0;
+    background-color: white;
+    color: black;
+    
+}
+.modal-social ul {
+    margin: -37px;
+    margin-top: -10px;
+}
+.modal-social ul li {
+    list-style: none;
+}
+.modal-social ul li a {
+    font-size: 18px;
+    line-height: 1.7rem;
+    font-weight:500;
+}
+.modal-social ul li a:hover {
+    text-decoration: underline;
+}
+ .modal-symbol {
+    font-size: 36px;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+    left: 370px;
+    color: white;
+    border:none;
+    background-color: rgba(0,0,0,0);
+    
+
+}
+.modal-symbol:hover {
+    color: rgb(0, 1, 254);
+    font-size: 42px;
+   
+}
+.modal-symbol:active {
+    border:none;
+}
