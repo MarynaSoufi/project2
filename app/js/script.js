@@ -432,6 +432,7 @@
               
             }); 
         },
+        //modalWindow
         clickModal() {
             const btn = document.querySelectorAll(".modal-symbol");
             console.log(btn);
