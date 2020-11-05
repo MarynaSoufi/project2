@@ -74,6 +74,9 @@
             for (let i of this.data){
                 //console.log(i.from);
                 const div = document.createElement("div");
+                div.style.width = "33%";
+                div.style.height = "290px";
+                div.style.backgroundPosition = "50% 50%";
                 div.setAttribute("data", `${i.id}`);
                 div.classList.add("pic");        
                 container.appendChild(div);
