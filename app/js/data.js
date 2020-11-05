@@ -34,8 +34,8 @@ const linup = [
         },
         from: 1610031600000,
         to: 1610038800000,
-        createdAt: "",
-        modifiedAt: "",
+        createdAt: "1578754560000",
+        modifiedAt: "1589205360000",
         isHeadliner: true
     },
     {
@@ -73,8 +73,8 @@ const linup = [
         },
         from: 1610024400000,
         to: 1610031600000,
-        createdAt: "",
-        modifiedAt: "",
+        createdAt: "1578754560000",
+        modifiedAt: "1589205360000",
         isHeadliner: true
     },
     {
@@ -112,8 +112,8 @@ const linup = [
         },
         from: 1610040600000,
         to: 1610047800000,
-        createdAt: "",
-        modifiedAt: "",
+        createdAt: "1578754560000",
+        modifiedAt: "1589205360000",
         isHeadliner: true
     },
     {
@@ -152,8 +152,8 @@ const linup = [
         },
         from: 1610209800000,
         to: 1610217000000,
-        createdAt: "",
-        modifiedAt: "",
+        createdAt: "1578754560000",
+        modifiedAt: "1589205360000",
         isHeadliner: true
     },
     {
@@ -191,8 +191,8 @@ const linup = [
         },
         from: 1610199000000,
         to: 1610206200000,
-        createdAt: "",
-        modifiedAt: "",
+        createdAt: "1578754560000",
+        modifiedAt: "1589205360000",
         isHeadliner: true
     },
     {
@@ -229,8 +229,8 @@ const linup = [
         },
         from: 1610217000000,
         to: 1610224200000,
-        createdAt: "",
-        modifiedAt: "",
+        createdAt: "1578754560000",
+        modifiedAt: "1589205360000",
         isHeadliner: true
     },
    

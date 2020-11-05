@@ -288,6 +288,7 @@ footer {
     width: 70%;
     z-index: 99999;
     margin-top: -32px;
+    height: 300%;
 }
 .my-modal-image {
     width: 100%;
